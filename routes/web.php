@@ -15,10 +15,21 @@ Route::get('/', function () {
     return view('landing');
 });
 
-Route::get('login', function () {
-    return view('login');
+Route::get('entrar', function () {
+    return view('entrar');
+});
+
+Route::get('loginadmin', function () {
+    return view('loginAdmin');
 });
 
 Route::get('cadastrar', function () {
     return view('cadastrar');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

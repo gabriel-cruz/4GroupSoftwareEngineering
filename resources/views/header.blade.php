@@ -31,7 +31,7 @@
                     </a>
                 </li>     
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="/login">
+                    <a class="nav-link js-scroll-trigger" href="/entrar">
                         <i class="fa fa-user fa-2x" aria-hidden="true"></i>
                     </a>
                 </li>   
